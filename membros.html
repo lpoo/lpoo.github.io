@@ -5,6 +5,12 @@ title: LPOO - Laboratório de Pesquisa Operacional e Otimização
 
 <div class="wall">
   <h1> Membros </h1>
-  <p> Lista de membros em breve.
-  </p>
+  {% for membro in site.data.membros %}
+  <div class="membro">
+    <h2> {{ membro.name }}  - 
+      <a href="http://{{ membro.url }}"> Site pessoal </a> - 
+      <a href="http://github.com/{{ membro.github }}"> GitHub </a>
+    </h2>
+  </div>
+  {% endfor %}
 </div>
