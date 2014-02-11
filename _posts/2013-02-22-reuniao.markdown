@@ -1,0 +1,18 @@
+---
+layout: post
+title:  Reunião
+---
+Palestra
+--------
+
+Abel Soares Siqueira - Introdução ao git (Vídeo não ficou bom)
+
+Participantes
+-------------
+
+-   Abel Soares Siqueira
+-   Daiane Gonçalves Ferreira
+-   Deise Gonçalves Ferreira
+-   Kelly Cadena
+-   Raniere Gaia Costa
+

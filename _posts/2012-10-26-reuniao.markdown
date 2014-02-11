@@ -1,0 +1,40 @@
+---
+layout: post
+title:  Reunião
+---
+Ata da Reunião
+--------------
+
+-   Temos mais gente interessada no CUTEr e sugestões de trabalho: Criar
+    problemas infactíveis e criar algumas funções extras de acesso.
+-   Discutimos a viabilidade de Artigos e Revistas Open Access.
+    Consideramos que para que seja viável na nossa área, o melhor seria
+    que pesquisadores de peso publicassem e revisassem os artigos. O
+    grande problema que vimos em nós (alunos) publicarmos nessas
+    revistas é a necessidade de ter publicações em boas revistas para
+    conseguir e manter bons empregos. A nota (atribuida pelas agências,
+    como a Capes) pesa muito no começo (talvez no meio e fim também) da
+    carreira.
+-   Douglas apresentou um problema envolvendo Compressed Sensing que ele
+    está estudando.
+
+Palestra
+--------
+
+Thadeu Senne - "Otimização Topológica de Estruturas sob não Linearidade
+Geométrica"  ([download](/assets/apresentacoes/thadeu.26.10.2012.pdf))
+
+Participantes
+-------------
+
+-   Abel Soares Siqueira
+-   Daiane Gonçalves Ferreira
+-   Deise Gonçalves Ferreira
+-   Douglas Gonçalves
+-   Hector Flores
+-   Kelly Cadena
+-   Leandro Prudente
+-   Raniere Gaia
+-   Thadeu Senne
+-   Wanderson Luiz
+

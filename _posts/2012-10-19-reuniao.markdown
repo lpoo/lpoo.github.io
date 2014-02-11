@@ -1,0 +1,33 @@
+---
+layout: post
+title:  Reunião
+---
+Ata da Reunião
+--------------
+
+-   O Site está funcionando e já adicionamos uma seção de tutoriais.
+-   O LPOO está ativo e organizado. Poucas coisas precisam ser
+    arrumadas.
+-   Tutorial do CUTEr anunciado, e requisição de ajuda feita, mas nenhum
+    voluntário.
+-   Cargos administrativos também sem voluntários.
+
+Palestra
+--------
+
+Douglas Gonçalves - "Convergência Global de Algoritmos de Descida: Um
+Pouco Além de Armijo, Ângulo e Proporcionalidade"
+ ([download](/assets/apresentacoes/douglas.19.10.2012.pdf))
+
+Participantes
+-------------
+
+-   Abel Soares Siqueira
+-   Douglas Gonçalves
+-   Hector Flores
+-   Kelly Cadena
+-   Leandro Prudente
+-   Raniere Gaia
+-   Wanderson Luiz
+-   Prof. Aurélio Ribeiro
+

@@ -1,9 +1,33 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
 <div class="post">
-{{ content }}
+  <div class="wall">
+    <h1> {{ page.title }} </h1>
+    <div class="next">
+      {% if page.next.url %}
+      &laquo;
+      <a href="{{ page.next.url }}">{{ page.next.date | date: "%d/%m/%Y" }}</a>
+      {% endif %}
+    </div>
+    <div class="prev">
+      {% if page.previous.url %}
+      <a href="{{ page.previous.url }}">{{ page.previous.date | date: "%d/%m/%Y" }}</a>
+      &raquo;
+      {% endif %}
+    </div>
+    <div style="clear: both;">
+    </div>
+    <div class="postwall">
+      {{ content }}
+    </div>
+    <div class="footer">
+    </div>
+    <div class="postdate">
+      {% assign month = page.date | date: "%-m" %}
+      {{ page.date | date: "%d de" }}
+      {% include month_br.ext %}
+      {{ page.date | date: "de %Y" }}
+    </div>
+  </div>
 </div>

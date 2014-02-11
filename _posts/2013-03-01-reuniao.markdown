@@ -1,0 +1,19 @@
+---
+layout: post
+title:  Reunião
+---
+Palestra
+--------
+
+Deise Gonçalvas Ferreira - Sobre Métodos de busca padrão para
+Minimização de funcões com Restricões Lineares
+ ([download](/assets/apresentacoes/deise.01.03.2013.pdf))
+
+Participantes
+-------------
+
+-   Abel Soares Siqueira
+-   Deise Gonçalves Ferreira
+-   Douglas Gonçalves
+-   Raniere Gaia Costa
+

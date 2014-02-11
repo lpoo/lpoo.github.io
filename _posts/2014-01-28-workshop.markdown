@@ -1,0 +1,33 @@
+---
+layout: post
+title:  Workshop de ferramentas computacionais
+---
+**Atualização**:
+[nesse outro post](/assets/apresentacoes/../../../2014/02/03/por\_que\_usar\_git.html) você
+encontra uma justificativa para participar deste workshop.
+
+Durante o dia 21 de fevereiro, sexta-feira, estaremos realizando um
+workshop **gratuito** na sala S06 apresentado
+
+-   terminal/shell/bash, "única" forma de utilizar máquinas remotas e
+    bastante útil para automatizar tarefas;
+-   git, o sistema para controle de versão mais utilizado na atualidade
+    que, dentre outras coisa, possibilita o fácil gerenciamento da
+    versões de arquivos texto possibilitando desfazer uma edição mesmo
+    depois de fechar o arquivo e recuperar uma remoção indevida. É
+    utilizado no modelo de dissertações e teses do IMECC;
+-   Python, linguagem de programação que nos últimos anos tem sido
+    largamente adotada pela comunidade acadêmica por ser fácil de
+    aprender e grande quantidade de bibliotecas.
+
+Nosso workshop será nos moldes dos realizados pela [Software
+Carpentry](http://software-carpentry.org) em, dentre outros lugares,
+[Cambridge](http://software-carpentry.org/blog/2014/01/feedback-cam-r-bootcamp.html),
+[Stanford](http://software-carpentry.org/blog/2013/05/stanford.html),
+[Oxford](http://software-carpentry.org/blog/2013/05/oxford-dtc-experiences.html),
+[Berkeley](http://software-carpentry.org/blog/2013/11/wise-bootcamp-at-lbl.html),
+[Edinburgh](http://software-carpentry.org/blog/2013/12/edinburgh-feedback.html).
+
+Maiores informações em <http://r-gaia-cs.github.io/2014-02-21-imecc/>.
+
+Para inscrever-se, envie um email para <raniere@ime.unicamp.br>.

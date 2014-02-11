@@ -1,0 +1,31 @@
+---
+layout: post
+title:  Reunião
+---
+Ata da Reunião
+--------------
+
+-   Foi avisado que a última reunião será dia 07 ou 14 de dezembro,
+    ainda a ser confirmado.
+-   Decidimos que voltaríamos das férias dia 18 de janeiro.
+-   Discutimos sobre o CUTEr e outras maneiras de montar, ler e escrever
+    problemas de otimização não-linear.
+
+Palestra
+--------
+
+Raniere Gaia Costa - Best Practices for Scientific Computing
+ ([download](/assets/apresentacoes/raniere.30.11.2012.pdf))
+
+Participantes
+-------------
+
+-   Abel Soares Siqueira
+-   Daiane Gonçalves Ferreira
+-   Deise Gonçalves Ferreira
+-   Douglas Gonçalves
+-   Flávio Margarito
+-   Kelly Cadena
+-   Raniere Gaia
+-   Wanderson Silva
+

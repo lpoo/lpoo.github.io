@@ -1,0 +1,19 @@
+---
+layout: post
+title:  Reunião
+---
+Ata da Reunião
+--------------
+
+-   Decidimos próximas reuniões.
+-   Consideramos pessoas a serem chamadas para as reuniões.
+
+Participantes
+-------------
+
+-   Abel Soares Siqueira
+-   Daiane Gonçalves Ferreira
+-   Deise Gonçalves Ferreira
+-   Kelly Cadena
+-   Raniere Gaia Costa
+

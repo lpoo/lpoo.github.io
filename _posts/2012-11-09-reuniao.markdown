@@ -1,0 +1,28 @@
+---
+layout: post
+title:  Reunião
+---
+Ata da Reunião
+--------------
+
+-   Foi avisado que o Douglas complementou o tutorial com o uso do CUTEr
+    no Matlab, mas que ainda não atualizamos na página.
+
+Palestra
+--------
+
+Hector Flores - "Quadrados Mínimos Não-Lineares e Otimização Global"
+ ([download](/assets/apresentacoes/hector.09.11.2012.pdf))
+
+Participantes
+-------------
+
+-   Abel Soares Siqueira
+-   Deise Gonçalves Ferreira
+-   Douglas Gonçalves
+-   Hector Flores
+-   Kelly Cadena
+-   Paula Kikuchi
+-   Raniere Gaia
+-   Thadeu Senne
+

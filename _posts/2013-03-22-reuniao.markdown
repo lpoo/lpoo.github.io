@@ -1,0 +1,25 @@
+---
+layout: post
+title:  Reunião
+---
+Ata da Reunião
+--------------
+
+-   Anunciada a próxima reunião.
+
+Palestra
+--------
+
+Raniere Gaia Costa - Branch & Bound Binário 
+([download](/assets/apresentacoes/raniere.22.03.2013.pdf))
+
+Participantes
+-------------
+
+-   Abel Soares Siqueira
+-   Daiane Gonçalves Ferreira
+-   Deise Gonçalves Ferreira
+-   Denise Trevisoli
+-   Kelly Cadena
+-   Raniere Gaia Costa
+

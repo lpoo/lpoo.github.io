@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
+        <title>LPOO - Laboratório de Pesquisa Operacional e Otimização - {{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
         <!-- syntax highlighting CSS -->
@@ -22,9 +22,9 @@
           </div>
           <nav>
             <ul>
-              {% for page in site.data.pages %}
+              {% for page in site.pages %}
               <li> 
-                <a href="{{ page.url }}">{{ page.name }}</a>
+                <a href="{{ page.url }}">{{ page.title }}</a>
               </li>
               {% endfor %}
             </ul>

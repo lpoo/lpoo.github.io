@@ -1,16 +1,22 @@
 ---
 layout: default
-title: LPOO - Laboratório de Pesquisa Operacional e Otimização
+title: Membros
 ---
 
 <div class="wall">
   <h1> Membros </h1>
   {% for membro in site.data.membros %}
   <div class="membro">
-    <h2> {{ membro.name }}  - 
-      <a href="http://{{ membro.url }}"> Site pessoal </a> - 
-      <a href="http://github.com/{{ membro.github }}"> GitHub </a>
-    </h2>
+      <h2> {{ membro.name }}  - 
+        <a href="http://{{ membro.url }}"> Site pessoal </a> - 
+        <a href="http://github.com/{{ membro.github }}"> GitHub </a>
+      </h2>
+
+      <div class="membro-img">
+        <img src="/assets/membros/{{ membro.image }}" alt="{{ membro.name }}">
+      </div>
+    <div class="cboth">
+    </div>
   </div>
   {% endfor %}
 </div>

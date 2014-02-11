@@ -1,0 +1,26 @@
+---
+layout: post
+title:  Reunião
+---
+Ata da Reunião
+--------------
+
+-   Declaramos interesse em encontrar mais alunos para o grupo.
+-   Decidimos reuniões do mês.
+
+Palestra
+--------
+
+Daiane Gonçalvas Ferreira - Métodos de Terceira Ordem 
+([download](/assets/apresentacoes/daiane.01.02.2013.pdf))
+
+Participantes
+-------------
+
+-   Abel Soares Siqueira
+-   Daiane Gonçalves Ferreira
+-   Deise Gonçalves Ferreira
+-   Denise Trevisoli
+-   Douglas Gonçalves
+-   Raniere Gaia Costa
+

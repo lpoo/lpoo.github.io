@@ -10,7 +10,7 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body { height: 800px; }
 
 body {
   background-color: #202530;
@@ -35,8 +35,11 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 .posts {
+  background-color: #fff;
   list-style-type: none;
-  margin-bottom: 2em;
+  margin: 30px;
+  border: 1px solid #000;
+  padding: 10px;
 }
 
 .posts li {
@@ -49,6 +52,14 @@ a:visited { color: #a0a; }
   font-size: 80%;
 }
 
+.posts a, a:visited {
+  color: #a00;
+}
+
+.posts a:hover {
+  color: #aa0;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -58,7 +69,7 @@ a:visited { color: #a0a; }
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 986px;
   margin: 3em auto 2em;
   line-height: 1.5em;
   display: block;
@@ -203,8 +214,60 @@ div .wall {
 
 div .wall h1 {
   text-align: center;
-  background-color: #fff;
+  background-color: #202530;
+  color: #fff;
   padding: 3px;
   border: 1px solid #000;
   font-size: 1.5em;
+}
+
+div .postwall {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 30px;
+}
+
+div .postdate {
+  text-align: right;
+  font-size: 1.3em;
+  font-family: Monaco, "Courier New", monospace;
+}
+
+div .membro {
+  background-color: #fff;
+  border: 1px solid #600;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+div .membro h2 {
+  float: left;
+}
+
+div .cboth {
+  clear: both;
+}
+
+div .membro-img {
+  float: right;
+}
+
+div .next, div .prev, .next a, .prev a {
+  color: #999;
+}
+
+.next a:hover, .prev a:hover {
+  color: #000;
+}
+
+div .next {
+  float: left;
+  text-align: left;
+  clear: both;
+}
+
+div .prev {
+  float: right;
+  text-align: right;
 }

@@ -1,0 +1,21 @@
+---
+layout: post
+title:  Reunião
+---
+Palestra
+--------
+
+Bruno Cervelin - Sobre um Método de Minimização Irrestrita Baseado em
+Derivadas Simplex  ([download](/assets/apresentacoes/bruno.05.04.2013.pdf))
+
+Participantes
+-------------
+
+-   Abel Soares Siqueira
+-   Bruno Cervelin
+-   Clayton Henrique Samora
+-   Daiane Gonçalves Ferreira
+-   Deise Gonçalves Ferreira
+-   Kelly Cadena
+-   Raniere Gaia Costa
+

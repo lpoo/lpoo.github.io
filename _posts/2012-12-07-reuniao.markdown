@@ -1,0 +1,32 @@
+---
+layout: post
+title:  Reunião
+---
+Ata da Reunião
+--------------
+
+-   Foi avisado que esta era a última reunião do Ano.
+-   Foi avisado que voltaríamos das férias dia 18 de janeiro.
+
+Palestra
+--------
+
+Luiz Rafael dos Santos - Escolha Adiada de Parâmetros em Métodos de
+Pontos Interiores para Programação Linear 
+([download](/assets/apresentacoes/luiz-rafael.07.12.2012.pdf))
+
+Participantes
+-------------
+
+-   Abel Soares Siqueira
+-   Daiane Gonçalves Ferreira
+-   Deise Gonçalves Ferreira
+-   Denise Trevisoli
+-   Douglas Gonçalves
+-   Felipe Fidalgo
+-   Hector Flores
+-   Kelly Cadena
+-   Leandro Prudente
+-   Luiz Rafael dos Santos
+-   Thadeu Senne
+

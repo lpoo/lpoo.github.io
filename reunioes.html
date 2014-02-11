@@ -1,13 +1,19 @@
 ---
 layout: default
-title: LPOO - Laboratório de Pesquisa Operacional e Otimização
+title: Reuniões
 ---
 
 <div class="wall">
   <h1>Reuniões</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% assign month = post.date | date: "%-m" %}
+      <li><span>{{ post.date | date: "%d de" }} 
+        {% include month_br.ext %}
+      {{ post.date | date: "de %Y" }} 
+      </span> &raquo; 
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
     {% endfor %}
   </ul>
 </div>

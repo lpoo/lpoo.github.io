@@ -1,0 +1,25 @@
+---
+layout: post
+title:  Reunião
+---
+Ata da Reunião
+--------------
+
+-   Discutimos mais detalhes sobre a Rede de Colaboração
+
+Palestra
+--------
+
+Abel Soares Siqueira - Dynamic Control of Infeasibility for Nonlinear
+Programming  (<strong>arquivo perdido</strong>)
+
+Participantes
+-------------
+
+-   Abel Soares Siqueira
+-   Angelo Aliano Filho
+-   Daiane Gonçalves Ferreira
+-   Deise Gonçalves Ferreira
+-   Kelly Cadena
+-   Raniere Gaia Costa
+

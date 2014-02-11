@@ -1,0 +1,27 @@
+---
+layout: post
+title:  Reunião
+---
+Ata da Reunião
+--------------
+
+Foi avisado que a próxima reunião será na sala 06 do prédio anexo.
+
+Palestra
+--------
+
+Abel Soares Siqueira - Controle Dinâmico da Inviabilidade para Problemas
+com Restrições de Desigualdade  ([download](/assets/apresentacoes/abel.23.11.2012.pdf))
+
+Participantes
+-------------
+
+-   Abel Soares Siqueira
+-   Daiane Gonçalves Ferreira
+-   Deise Gonçalves Ferreira
+-   Denise Trevisoli
+-   Kelly Cadena
+-   Porfírio Suñagua
+-   Raniere Gaia
+-   Thadeu Senne
+
