@@ -13,7 +13,7 @@
 html, body { height: 800px; }
 
 body {
-  background-color: #202530;
+  background-color: #093019;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -37,9 +37,9 @@ a:visited { color: #a0a; }
 .posts {
   background-color: #fff;
   list-style-type: none;
-  margin: 30px;
+  margin: 1em 2em;
   border: 1px solid #000;
-  padding: 10px;
+  padding: 0.5em;
 }
 
 .posts li {
@@ -83,10 +83,19 @@ a:visited { color: #a0a; }
 .title {
   display: inline-block;
   margin-bottom: 2em;
+  background-color: #360;
+  padding: 0.5em 0em;
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+  border: 8px double #000;
+  border-width: 8px 0 8px 0;
+  margin: 1em 0 0 0;
 }
 
 .title a {
-  color: #a00;
+  color: #000;
+  font-size: 1.2em;
 }
 
 .title a:hover {
@@ -172,9 +181,10 @@ a:visited { color: #a0a; }
 }
 
 nav {
-  border: 1px solid #600;
+  border: 4px solid #000;
+  border-color: #a00 #400 #200 #900;
   display: block;
-  padding: 10px;
+  padding: 0.5em 0;
   font-size: 1.3em;
   background: #600;
   width: 100%;
@@ -193,7 +203,7 @@ nav ul {
   list-style: none;
   width: 100%;
   display: block;
-  padding: 0;
+  padding: 0 0.5em;
 }
 
 nav li {
@@ -201,44 +211,54 @@ nav li {
   list-style-type: none;
   text-align: left;
   margin: 0;
-  padding: 10px;
+  padding: 0.5em;
   width: 100%;
 }
 
 div .wall {
   background-color: #eee;
-  padding: 10px;
+  margin: 0.2cm 0;
+  padding: 0.5em 0;
   width: 100%;
-  border: 1px solid #600;
+  border: 4px solid #000;
+  border-color: #aaa #444 #222 #888;
 }
 
 div .wall h1 {
   text-align: center;
-  background-color: #202530;
+  background-color: #093019;
   color: #fff;
-  padding: 3px;
-  border: 1px solid #000;
+  font-family: sans-serif;
+  padding: 0.2em;
+  margin: 0.5em 1.0em;
+  border: 4px solid #000;
+  border-color: #222 #888 #aaa #444;
   font-size: 1.5em;
+}
+
+div .wall p {
+  padding: 0 1.0em;
 }
 
 div .postwall {
   background-color: #fff;
   border: 1px solid #000;
-  padding: 10px;
-  margin: 30px;
+  padding: 0.5em;
+  margin: 1em 2em;
 }
 
 div .postdate {
   text-align: right;
   font-size: 1.3em;
   font-family: Monaco, "Courier New", monospace;
+  margin: 0 2em;
 }
 
 div .membro {
   background-color: #fff;
-  border: 1px solid #600;
-  padding: 10px;
-  margin: 10px 0;
+  border: 1px solid #000;
+  padding: 0.5em;
+  margin: 1em 2em;
 }
 
 div .membro h2 {
@@ -253,10 +273,14 @@ div .membro-img {
   float: right;
 }
 
-div .next, div .prev, .next a, .prev a {
+div .next, div .prev {
   color: #999;
+  margin: 0 2em;
 }
 
+.next a, .prev a {
+  color: #999;
+}
 .next a:hover, .prev a:hover {
   color: #000;
 }
