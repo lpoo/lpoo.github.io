@@ -11,18 +11,30 @@ title: Membros
       <h2> {{ membro.name }}  </h2> 
       <p> {{ membro.whois }} </p>
       <p> E-mail: 
-        {% if membro.email %} 
         <a href="mailto:{{ membro.email }}">{{ membro.email }}</a>
-        {% else %}
-          Não informado
-        {% endif %}
       </p>
-      <a href="http://{{ membro.url }}"> Site pessoal </a> - 
+      <p>
+      {% if membro.url %}
+      <a href="http://{{ membro.url }}"> Site pessoal </a>
+      {% else %}
+      Sem site
+      {% endif %}
+      -
+      {% if membro.github %}
       <a href="http://github.com/{{ membro.github }}"> GitHub </a>
+      {% else %}
+      Sem GitHub
+      {% endif %}
+      </p>
       </div>
       <div class="pessoa-img">
+        {% if membro.image %}
         <img src="/assets/pessoas/{{ membro.image }}" 
           alt="{{ membro.name }}">
+        {% else %}
+        <img src="/assets/pessoas/noimage.png" 
+          alt="{{ membro.name }}">
+        {% endif %}
       </div>
     <div class="cboth">
     </div>

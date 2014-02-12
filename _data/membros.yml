@@ -6,7 +6,13 @@
   email: abel@ime.unicamp.br
 
 - name: Raniere Gaia Costa da Silva
-  url:  www.ime.unicamp.br/~ra092767
+  url:  blog.rgaiacs.com
   github: r-gaia-cs
-  image: noimage.png
-  whois: Aluno de graduação e colaborar na maioria dos projetos.
+  whois: Aluno de graduação. Interesse em programação linear (inteira) e coisas
+    livres (ou abertas).
+  email: raniere@ime.unicamp.br
+
+- name: Daiane Gonçalves Ferreira
+  email: daianegferreira@gmail.com
+  whois: Cursando o Doutorado em Matemática Aplicada, na área de Pesquisa
+    Operacional, mais especificamente, programação não linear inteira mista

@@ -1,0 +1,43 @@
+---
+layout: default
+title: Ex-Membros
+---
+
+<div class="wall">
+  <h1> Ex-Membros </h1>
+  {% for exmembro in site.data.exmembros %}
+  <div class="pessoa">
+    <div class="pessoa-desc">
+      <h2> {{ exmembro.name }}  </h2> 
+      <p> {{ exmembro.whois }} </p>
+      <p> E-mail: 
+        <a href="mailto:{{ exmembro.email }}">{{ exmembro.email }}</a>
+      </p>
+      <p>
+      {% if exmembro.url %}
+      <a href="http://{{ exmembro.url }}"> Site pessoal </a>
+      {% else %}
+      Sem site
+      {% endif %}
+      -
+      {% if exmembro.github %}
+      <a href="http://github.com/{{ exmembro.github }}"> GitHub </a>
+      {% else %}
+      Sem GitHub
+      {% endif %}
+      </p>
+      </div>
+      <div class="pessoa-img">
+        {% if exmembro.image %}
+        <img src="/assets/pessoas/{{ exmembro.image }}" 
+          alt="{{ exmembro.name }}">
+        {% else %}
+        <img src="/assets/pessoas/noimage.png" 
+          alt="{{ exmembro.name }}">
+        {% endif %}
+      </div>
+    <div class="cboth">
+    </div>
+  </div>
+  {% endfor %}
+</div>
