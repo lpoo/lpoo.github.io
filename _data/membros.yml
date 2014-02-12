@@ -5,14 +5,26 @@
   whois: Aluno de pós-doutorado e administrador do Laboratório. 
   email: abel@ime.unicamp.br
 
+- name: Daiane Gonçalves Ferreira
+  email: daianegferreira@gmail.com
+  whois: Cursando o Doutorado em Matemática Aplicada, na área de Pesquisa
+    Operacional, mais especificamente, programação não linear inteira mista
+
+- name: Deise Gonçalves Ferreira
+  email: deisegema@gmail.com
+  whois: Aluna de doutorado em Matemática Aplicada. Trabalha na área de
+    otimização não linear com restrições e sem derivadas.
+
+- name: Luis Rafael dos Santos
+  email: lrsantos11@gmail.com
+  whois: Aluno de doutorado com o prof. Aurélio em métodos de pontos interiores
+    e professor do Instituto Federal Catarinense.
+  url: sites.google.com/site/lrsantos11
+  github: lrsantos11
+
 - name: Raniere Gaia Costa da Silva
   url:  blog.rgaiacs.com
   github: r-gaia-cs
   whois: Aluno de graduação. Interesse em programação linear (inteira) e coisas
     livres (ou abertas).
   email: raniere@ime.unicamp.br
-
-- name: Daiane Gonçalves Ferreira
-  email: daianegferreira@gmail.com
-  whois: Cursando o Doutorado em Matemática Aplicada, na área de Pesquisa
-    Operacional, mais especificamente, programação não linear inteira mista

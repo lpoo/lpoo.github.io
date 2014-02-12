@@ -1,5 +1,15 @@
 - name: Douglas Soares Gonçalves
   whois: Doutor em Matemática Aplicada pela Universidade Estadual de Campinas em 2013.
     Atualmente fazendo pós-doutorado no IRISA na Université de Rennes 1.
-    Interesses em Otimização, Informação quántica e `Distance Geometry`
+    Interesses em otimização, informação quântica e "distance geometry".
   email: douglassgoncalves@gmail.com
+
+- name: Hector Flores Callisaya
+  whois: Professor na UFSJ. Interesses em teoria de otimização, algoritmos e
+    aplicações, e assuntos relacionados.
+  email: fchect@gmail.com
+
+- name: Thadeu Alves Senne
+  whois: Professor na Universidade Federal do Triângulo Mineiro (UFTM), em
+    Uberaba-MG, desde 05/2013. Interesses em programação linear e não linear e
+    otimização topológica.
