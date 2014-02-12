@@ -13,7 +13,7 @@
 html, body { height: 800px; }
 
 body {
-  background-color: #093019;
+  background-color: #000;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -82,20 +82,18 @@ a:visited { color: #a0a; }
 
 .title {
   display: inline-block;
-  margin-bottom: 2em;
-  background-color: #360;
   padding: 0.5em 0em;
-  width: 100%;
+  width: 1100px;
   font-size: 2em;
   text-align: center;
-  border: 8px double #000;
-  border-width: 8px 0 8px 0;
+  background-color: #211;
+  border: 2px solid #a00;
   margin: 1em 0 0 0;
 }
 
 .title a {
-  color: #000;
-  font-size: 1.2em;
+  color: #fff;
+  font-size: 1.0em;
 }
 
 .title a:hover {
@@ -124,12 +122,14 @@ a:visited { color: #a0a; }
 }
 
 .footer .contact {
-  float: left;
+  float: right;
   margin-right: 3em;
+  text-align: right;
 }
 
 .footer .contact a {
-  color: #8085C1;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer .rss {
@@ -217,7 +217,7 @@ nav li {
 
 div .wall {
   background-color: #eee;
-  margin: 0.2cm 0;
+  margin: 0.5em 0;
   padding: 0.5em 0;
   width: 100%;
   border: 4px solid #000;
@@ -226,7 +226,7 @@ div .wall {
 
 div .wall h1 {
   text-align: center;
-  background-color: #093019;
+  background-color: #000;
   color: #fff;
   font-family: sans-serif;
   padding: 0.2em;
@@ -240,11 +240,21 @@ div .wall p {
   padding: 0 1.0em;
 }
 
+div .wall ul {
+  margin: 1em 2em;
+}
+
 div .postwall {
   background-color: #fff;
   border: 1px solid #000;
   padding: 0.5em;
   margin: 1em 2em;
+}
+
+div .postwall h2 {
+  color: #060;
+  margin: 0.5em;
+  font-size: 1.1em;
 }
 
 div .postdate {
@@ -254,23 +264,40 @@ div .postdate {
   margin: 0 2em;
 }
 
-div .membro {
+div .pessoa {
   background-color: #fff;
   border: 1px solid #000;
   padding: 0.5em;
   margin: 1em 2em;
 }
 
-div .membro h2 {
+div .pessoa h2, div .pessoa-desc {
   float: left;
+  width: 700px;
+}
+
+div .pessoa a {
+  color: #060;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div .pessoa a:hover {
+  color: #0a0;
 }
 
 div .cboth {
   clear: both;
 }
 
-div .membro-img {
+div .pessoa-img {
   float: right;
+  max-width: 140px;
+  max-height: 140px;
+}
+
+div .pessoa-img img {
+  height: 140px;
 }
 
 div .next, div .prev {
@@ -295,3 +322,4 @@ div .prev {
   float: right;
   text-align: right;
 }
+

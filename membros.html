@@ -6,14 +6,23 @@ title: Membros
 <div class="wall">
   <h1> Membros </h1>
   {% for membro in site.data.membros %}
-  <div class="membro">
-      <h2> {{ membro.name }}  - 
-        <a href="http://{{ membro.url }}"> Site pessoal </a> - 
-        <a href="http://github.com/{{ membro.github }}"> GitHub </a>
-      </h2>
-
-      <div class="membro-img">
-        <img src="/assets/membros/{{ membro.image }}" alt="{{ membro.name }}">
+  <div class="pessoa">
+    <div class="pessoa-desc">
+      <h2> {{ membro.name }}  </h2> 
+      <p> {{ membro.whois }} </p>
+      <p> E-mail: 
+        {% if membro.email %} 
+        <a href="mailto:{{ membro.email }}">{{ membro.email }}</a>
+        {% else %}
+          Não informado
+        {% endif %}
+      </p>
+      <a href="http://{{ membro.url }}"> Site pessoal </a> - 
+      <a href="http://github.com/{{ membro.github }}"> GitHub </a>
+      </div>
+      <div class="pessoa-img">
+        <img src="/assets/pessoas/{{ membro.image }}" 
+          alt="{{ membro.name }}">
       </div>
     <div class="cboth">
     </div>

@@ -1,0 +1,45 @@
+- name: Ana Friedlander
+  url: friedlan
+  image: friedlan.jpg
+
+- name: Antônio Carlos Moretti
+  url: moretti
+  image: moretti.jpg
+
+- name: Aurélio Ribeiro Leite de Oliveira
+  url: aurelio
+
+- name: Francisco A. M. Gomes Neto
+  url: chico
+  image: chico.jpg
+
+- name: José Mario Martinez
+  url: martinez
+  image: martinez.jpg
+
+- name: Márcia Aparecida Gomes Ruggiero
+  url: marcia
+
+- name: Margarida P. Mello
+  url: margarid
+
+- name: Maria Aparecida Diniz Ehrhardt
+  url: cheti
+  image: cheti.jpg
+
+- name: Paulo José da Silva e Silva
+  url: pjssilva
+
+- name: Roberto Andreani
+  url: andreani
+  image: andreani.jpg
+
+- name: Sandra A. Santos
+  url: sandra
+  image: sandra.jpg
+
+- name: Valéria Abrão de Podestá
+  url: valeria
+
+- name: Vera Lúcia Rocha Lopes
+

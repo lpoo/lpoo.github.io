@@ -4,5 +4,8 @@
 - name: Membros
   url:  membros.html
 
+- name: Professores
+  url: professores.html
+
 - name: Reuniões
   url: reunioes.html

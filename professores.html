@@ -1,0 +1,34 @@
+---
+layout: default
+title: Professores
+---
+
+<div class="wall">
+  <h1> Professores </h1>
+  {% for professor in site.data.professores %}
+  <div class="pessoa">
+    <div class="pessoa-desc">
+      <h2> {{ professor.name }}  </h2> 
+      {% if professor.url %} 
+      <p> E-mail: 
+        <a href="mailto:{{ professor.url }}@ime.unicamp.br">
+          {{ professor.url }}@ime.unicamp.br
+        </a></br>
+        <a href="http://www.ime.unicamp.br/~{{ professor.url }}"> Site pessoal </a>
+      </p>
+      {% endif %}
+    </div>
+    <div class="pessoa-img">
+      {% if professor.image %}
+        <img src="/assets/pessoas/{{ professor.image }}" 
+        alt="{{ professor.name }}">
+      {% else %}
+        <img src="/assets/pessoas/noimage.png" 
+        alt="{{ professor.name }}">
+      {% endif %}
+    </div>
+    <div class="cboth">
+    </div>
+  </div>
+  {% endfor %}
+</div>
