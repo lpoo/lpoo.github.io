@@ -40,4 +40,40 @@ title: Membros
     </div>
   </div>
   {% endfor %}
+  <h1> Colaboradores </h1>
+  {% for colaborador in site.data.colaboradores %}
+  <div class="pessoa">
+    <div class="pessoa-desc">
+      <h2> {{ colaborador.name }}  </h2> 
+      <p> {{ colaborador.whois }} </p>
+      <p> E-mail: 
+        <a href="mailto:{{ colaborador.email }}">{{ colaborador.email }}</a>
+      </p>
+      <p>
+      {% if colaborador.url %}
+      <a href="http://{{ colaborador.url }}"> Site pessoal </a>
+      {% else %}
+      Sem site
+      {% endif %}
+      -
+      {% if colaborador.github %}
+      <a href="http://github.com/{{ colaborador.github }}"> GitHub </a>
+      {% else %}
+      Sem GitHub
+      {% endif %}
+      </p>
+      </div>
+      <div class="pessoa-img">
+        {% if colaborador.image %}
+        <img src="/assets/pessoas/{{ colaborador.image }}" 
+          alt="{{ colaborador.name }}">
+        {% else %}
+        <img src="/assets/pessoas/noimage.png" 
+          alt="{{ colaborador.name }}">
+        {% endif %}
+      </div>
+    <div class="cboth">
+    </div>
+  </div>
+  {% endfor %}
 </div>

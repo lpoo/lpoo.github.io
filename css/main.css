@@ -292,12 +292,12 @@ div .cboth {
 
 div .pessoa-img {
   float: right;
-  max-width: 140px;
-  max-height: 140px;
+  max-width: 160px;
+  max-height: 160px;
 }
 
 div .pessoa-img img {
-  height: 140px;
+  height: 160px;
 }
 
 div .next, div .prev {
