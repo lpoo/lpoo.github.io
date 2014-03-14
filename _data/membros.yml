@@ -5,6 +5,11 @@
   whois: Aluno de pós-doutorado e administrador do Laboratório. 
   email: abel@ime.unicamp.br
 
+- name: Bruno Henrique Cervelin
+  email: bcervelin@gmail.com
+  whois: Aluno de doutorado. Interesses em otimização de parâmetros de
+    algoritmos, registro e deformação de imagens e otimização sem derivadas.
+
 - name: Daiane Gonçalves Ferreira
   email: daianegferreira@gmail.com
   whois: Cursando o Doutorado em Matemática Aplicada, na área de Pesquisa
@@ -22,6 +27,11 @@
     e professor do Instituto Federal Catarinense.
   url: sites.google.com/site/lrsantos11
   github: lrsantos11
+
+- name: Melissa de Moraes Carvalho
+  email: mcarvalho.melissa@gmail.com
+  whois: Aluna de graduação em matemática aplicada com interesse em programação
+    linear.
 
 - name: Raniere Gaia Costa da Silva
   url:  blog.rgaiacs.com
