@@ -1,0 +1,21 @@
+---
+layout: default
+title: Projetos
+---
+
+<div class="wall">
+  <h1> Projetos </h1>
+  <p>A lista completa dos projetos do LPOO encontra-se no <a
+    href="https://github.com/lpoo">GitHub</a>.</p>
+  {% for projeto in site.data.projetos %}
+  <div class="projeto">
+    <h2> {{ projeto.name }}  </h2> 
+    <p> {{ projeto.description }} </p>
+    {% if projeto.documentation %}
+    <p>Documentação: <a href="{{ projeto.documentation }}">{{ projeto.documentation }}</a></p>
+    {% endif %}
+    <p> Código Fonte: 
+      <a href="{{ projeto.source }}">{{ projeto.source }}</a>
+    </p>
+  </div>
+  {% endfor %}

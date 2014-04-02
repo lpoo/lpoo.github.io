@@ -13,5 +13,8 @@
 - name: Reuniões
   url: reunioes.html
 
+- name: Projetos
+  url: projetos.html
+
 - name: Finanças
   url: finances.html
