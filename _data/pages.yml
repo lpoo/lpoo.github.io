@@ -16,5 +16,8 @@
 - name: Banco de Provas
   url: banco_de_provas.html
 
+- name: Projetos
+  url: projetos.html
+
 - name: Finanças
   url: finances.html
