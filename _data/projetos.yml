@@ -1,0 +1,19 @@
+- name: perfprof-py
+  description: Ferramenta para perfil de desempenho
+  documentation: http://perprof-py.readthedocs.org/en/latest/
+  source: https://github.com/lpoo/perprof-py
+
+- name: PCx
+  description: Solver para PLs utilizando Pontos Interiores
+  documentation: http://www.lpoo.ime.unicamp.br/pcx
+  source: https://github.com/lpoo/PCx
+
+- name: CUTEst.jl
+  description: Interface para o CUTEst em Julia
+  source: https://github.com/lpoo/CUTEst.jl
+
+- name: Modelo de Dissertações e Teses
+  description: Modelo de dissertações e teses nos padrões da UNICAMP e IMECC
+  documentation: http://www.lpoo.ime.unicamp.br/mt
+  source: https://github.com/lpoo/modelo_tese_imecc
+
