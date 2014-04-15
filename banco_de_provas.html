@@ -1,0 +1,26 @@
+---
+layout: default
+title: Banco de Provas
+---
+
+<div class="wall">
+  <h1> Banco de Provas </h1>
+  <h2> Admissão </h2>
+  <ul>
+  {% for prova in site.data.admissao %}
+  <li><a href="/bp/admissao/{{ prova.slug }}">{{ prova.name }}</a></li>
+  {% endfor %}
+  </ul>
+  <h2> Disciplinas </h2>
+  <ul>
+  {% for prova in site.data.disciplinas %}
+  <li><a href="/bp/mt/{{ prova.slug }}">{{ prova.name }}</a></li>
+  {% endfor %}
+  </ul>
+  <h2> Qualificação </h2>
+  <ul>
+  {% for prova in site.data.quali %}
+  <li><a href="/bp/quali/{{ prova.slug }}">{{ prova.name }}</a></li>
+  {% endfor %}
+  </ul>
+</div>

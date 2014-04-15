@@ -13,5 +13,8 @@
 - name: Reuniões
   url: reunioes.html
 
+- name: Banco de Provas
+  url: banco_de_provas.html
+
 - name: Finanças
   url: finances.html
